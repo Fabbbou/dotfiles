@@ -1,0 +1,2 @@
+# We exclude local.sh to ignore the changes done inside the file
+local.sh
