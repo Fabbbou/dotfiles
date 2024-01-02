@@ -1,0 +1,8 @@
+[alias]
+	cc = checkout
+	c = commit
+	s = status
+	l = log -n 4 --pretty=oneline
+	p = push -u origin HEAD
+	r1 = reset --soft HEAD~1
+	pr = request-pull
