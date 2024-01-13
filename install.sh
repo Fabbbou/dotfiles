@@ -11,4 +11,4 @@ echo "# Add here every changes that are local to your system, and that shouldn't
 
 # Example
 # alias ss='ssh user@ip -p port'
-" > "local.sh"
+" > "$HOME/.dotfiles/local.sh"
