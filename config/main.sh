@@ -11,4 +11,4 @@ source "$DOTFILES_HOME/local.sh"
 # Add in PATH 
 #######################
 
-PATH=$PATH:$DOTFILES_HOME/scripts/
+PATH=$PATH:$DOTFILES_HOME/bin/

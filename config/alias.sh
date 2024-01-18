@@ -14,6 +14,7 @@ alias godot="cd $DOTFILES_HOME"
 alias setdot="code $DOTFILES_HOME"
 alias setgit="code ~/.gitconfig"
 alias setlocal="code $DOTFILES_HOME/config/local.sh"
+alias setrc="code $HOME/.bashrc"
 
 ########################
 #### git           #####
