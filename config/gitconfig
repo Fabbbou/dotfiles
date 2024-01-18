@@ -7,3 +7,5 @@
 	r1 = reset --soft HEAD~1
 	#git squash-all -m "a brand new start"
 	squash-all = "!f(){ git reset $(git commit-tree HEAD^{tree} \"$@\");};f"
+	ca = commit --amend
+	pr = request-pull
