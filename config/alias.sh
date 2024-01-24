@@ -13,7 +13,7 @@ alias godot="cd $DOTFILES_HOME"
 
 alias setdot="code $DOTFILES_HOME"
 alias setgit="code ~/.gitconfig"
-alias setlocal="code $DOTFILES_HOME/config/local.sh"
+alias setlocal="code $DOTFILES_HOME/local.sh"
 alias setrc="code $HOME/.bashrc"
 
 ########################
@@ -24,11 +24,3 @@ alias g='git'
 alias gf='git checkout main && git fetch && git pull'
 alias gitalias='git config --get-regexp ^alias'
 alias gr="./gradlew"
-
-
-########################
-#### flutter       #####
-########################
-alias fgen='flutter pub run build_runner build'
-alias mason='dart pub global run mason_cli:mason'
-
