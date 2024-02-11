@@ -24,3 +24,9 @@ alias g='git'
 alias gf='git checkout main && git fetch && git pull'
 alias gitalias='git config --get-regexp ^alias'
 alias gr="./gradlew"
+
+
+########################
+####      Misc      ####
+########################
+alias helpscreen="echo 'screen cmd: ctrl + a, then d to detach. screen -r to resume. screen -ls to list.'"
