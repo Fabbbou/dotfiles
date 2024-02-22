@@ -31,3 +31,7 @@ g pull
 - Remove the folder: `rm -rf ~/.dotfiles`
 - Remove the line `source ~/.dotfiles/config/main.sh` from your `~/.<shell>rc` file
 - Remove the git config : `git config --global --unset include.path`
+
+Next steps:
+- [ ] Add a warn when the repo needs to be updated
+- [ ] Add an update script to manage migration? 
