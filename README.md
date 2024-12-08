@@ -10,9 +10,13 @@ You need just to have:
 
 ### You want to use bash as you main shell
 
-```bash
-wget -O - https://raw.githubusercontent.com/Fabbbou/dotfiles/main/.install.sh | bash
-```
+1. Make sure you added you SSH key to your github account
+  * check if you have an ssh key `cat ~/.ssh/id_ed25519.pub`
+    * [if not]: `ssh-keygen -t ed25519 -C "18026601+Fabbbou@users.noreply.github.com"` - I already put the correct mail for you ;)  
+  * just copy it and add it to the [Authenticate Keys on your account](https://github.com/settings/keys)
+2. Clone the repo: `git clone git@github.com:Fabbbou/dotfiles.git && cd dotfiles`
+3. Execute the install script: `sudo chmod +x .install.sh && ./.install.sh`
+  * [if not using bash] You may change the `RC_PATH` var in the script
 
 ### Custom shell
 
