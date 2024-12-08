@@ -36,5 +36,4 @@ g pull
 - Remove the git config : `git config --global --unset include.path`
 
 Next steps:
-- [ ] Add a warn when the repo needs to be updated
-- [ ] Add an update script to manage migration? 
+- [ ] Script: compare current repo version and remote version to trigger a pull on startup
