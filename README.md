@@ -11,7 +11,7 @@ You need just to have:
 ### You want to use bash as you main shell
 
 ```bash
-wget -O - https://raw.githubusercontent.com/Fabbbou/dotfiles/main/install.sh | bash
+wget -O - https://raw.githubusercontent.com/Fabbbou/dotfiles/main/.install.sh | bash
 ```
 
 ### Custom shell
