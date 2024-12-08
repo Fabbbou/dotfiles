@@ -3,7 +3,6 @@ This is my dotfile repo, everything starts from here.
 
 ## Requirements
 You need just to have:
-- wget
 - git
 
 ## Installing
