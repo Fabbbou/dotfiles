@@ -1,4 +1,4 @@
-alias ll='ls -al'
+alias ll='ls -alh'
 
 ########################
 #### GO to folders #####
