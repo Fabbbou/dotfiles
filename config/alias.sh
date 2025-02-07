@@ -31,3 +31,6 @@ alias gac='git add . && git commit -m'
 alias gr="./gradlew"
 alias helpscreen="echo 'screen cmd: ctrl + a, then d to detach. screen -r to resume. screen -ls to list.'"
 alias dot_reload="source ~/.dotfiles/config/main.sh"
+
+#you need to do this first to make the alias working correctly: $> powercfg -h off
+alias winsleep="rundll32.exe powrprof.dll,SetSuspendState 0,1,0"
