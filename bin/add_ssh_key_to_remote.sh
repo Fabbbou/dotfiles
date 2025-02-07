@@ -41,6 +41,8 @@ if [ ! -f $public_key_path ]; then
     echo "Public key file ($public_key_path) does not exist. Please run the following command to generate it:"
     echo "ssh-keygen -t rsa -b 4096 -C 'your_email@example.com'"
     exit 1
+else
+    echo "Public key file found at $public_key_path."
 fi
 
 # Check if the remote ~/.ssh directory exists

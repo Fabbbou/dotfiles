@@ -11,4 +11,5 @@ source "$DOTFILES_HOME/local.sh"
 # Add in PATH 
 #######################
 
-PATH=$PATH:$DOTFILES_HOME/bin/
+# example (not used anymore, alias instead)
+# PATH=$PATH:$DOTFILES_HOME/bin/
