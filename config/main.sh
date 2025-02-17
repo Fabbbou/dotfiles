@@ -7,6 +7,12 @@ export DOTFILES_HOME="$HOME/.dotfiles"
 source "$DOTFILES_HOME/config/alias.sh"
 source "$DOTFILES_HOME/local.sh"
 
+
+########################
+# .bashrc Functions
+########################
+source "$DOTFILES_HOME/bin/zipcount.sh"
+
 #######################
 # Add in PATH 
 #######################
