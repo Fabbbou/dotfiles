@@ -1,5 +1,6 @@
 # dotfiles
-This is my dotfile repo, everything starts from here.
+This is my dotfiles repo.
+I use this to install all my aliases and scripts on every OS I'm using to make my life easier.
 
 ## Requirements
 You need just to have:
@@ -29,11 +30,13 @@ You need just to have:
 godot
 g pull
 ```
+> `godot` aliases is not a ref to the GoDot engine, but just an alias to 'go to dotfiles folder'
+> see `config/alias.sh` file
 
 ## Uninstall
 - Remove the folder: `rm -rf ~/.dotfiles`
 - Remove the line `source ~/.dotfiles/config/main.sh` from your `~/.<shell>rc` file
 - Remove the git config : `git config --global --unset include.path`
 
-Next steps:
+TODO:
 - [ ] Script: compare current repo version and remote version to trigger a pull on startup
