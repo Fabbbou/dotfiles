@@ -2,6 +2,8 @@
 This is my dotfiles repo.
 I use this to install all my aliases and scripts on every OS I'm using to make my life easier.
 
+This repo ultimatly add a `~/.dotfiles/` folder on your OS, and bind the aliases on your shell sessions and git config. 
+
 ## Requirements
 You need just to have:
 - git
@@ -21,7 +23,7 @@ You need just to have:
 ### Custom shell
 
 - Simply use the copy-paste/download the install.sh file
-- Change the `RC_PATH` at the beginning of the install.sh to your own terminal rc path
+- Change the `RC_PATH` at the beginning of the install.sh to your own terminal rc path, default is `bash` (yes, I'm not a `zsh` user yet)
 - Run it (might need sudo / chmod +x this as well maybe)
 
 ## Update (when a new commit is up here)
